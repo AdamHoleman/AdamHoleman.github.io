@@ -1,0 +1,105 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+<style>
+  header {
+        display: flex; /* Use flexbox to align the child elements horizontally */
+        justify-content: space-between; /* Add space between the child elements */
+        align-items: center; /* Center the child elements vertically */
+        background-color: #f0f0f0;
+        opacity: .7;
+        padding: 10px;
+      }
+      
+      nav ul {
+        display: flex; /* Use flexbox to align the list items horizontally */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 20px; /* Add some space between the list items */
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        margin-left: 10px; /* Add a left-hand margin of 20 pixels to the main section */
+      }
+
+
+
+  img {
+        width: 40%; /* Set the width to 50% of the container */
+        height: auto;
+        float: right;
+        margin-left: 200px; /* Add some margin to prevent the text from overlapping with the image */
+        margin-right: 20px;
+      }
+h1 {
+  font-family: "Dosis", sans-serif;
+}
+  
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size:20px;
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Projects</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li> <!-- Link back to index.html -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="images/Mountains.JPG" alt="...">
+      <section id="project-1">
+        <h2>Research</h2>
+        <p>Derived delta rings and relative prismatic cohomology - 
+          <a href="https://arxiv.org/abs/2303.17447">arxiv version.</a>
+        </p>
+      </section>
+
+      <section id="project-2">
+        <h2>Deep Learning Projects</h2>
+        <p>I have recently been working on a few machine learning projects, both for research and for my own personal learning. I plan on posting most of these in  <a href="https://github.com/AdamHoleman">my github.</a></p>
+        <li> Here's an ongoing project to apply interpretability techniques to the computation of <a href="https://github.com/AdamHoleman/K_Theory_Transformer">algebraic K-theory.</a> </li>
+        <li> A simple implementation of a <a href="https://github.com/AdamHoleman/Diffusion">diffusion model</a> from scratch in PyTorch. </li>
+      </section>
+
+      <section id="project-3">
+        <h2>Exposition</h2>
+        <p>Here are some unedited notes that have accumulated throughout my time as a graduate student.</p>
+        <li>Lecture notes from a talk on <a href = "writing/Dieudonne_Theory.pdf">prismatic Dieudonne theory</a>. </li>
+        <li>Notes from a reading group on etale cohomology introducing the basics of <a href="writing/Etale Morphisms.pdf">etale morphisms</a>.</li>
+      </section>
+
+    </main>
+
+
+  </body>
+</html>

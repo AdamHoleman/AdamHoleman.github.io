@@ -1,0 +1,92 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Oswald:wght@200&display=swap');
+  header {
+        display: flex; /* Use flexbox to align the child elements horizontally */
+        justify-content: space-between; /* Add space between the child elements */
+        align-items: center; /* Center the child elements vertically */
+        background-color: #f0f0f0; 
+        opacity: .7;
+        padding: 10px;
+      }
+      
+      nav ul {
+        display: flex; /* Use flexbox to align the list items horizontally */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 20px; /* Add some space between the list items */
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        margin-left: 10px; /* Add a left-hand margin of 20 pixels to the main section */
+      }
+
+
+
+  img {
+        width: 40%; /* Set the width to 50% of the container */
+        height: auto;
+        float: right;
+        margin-left: 200px; /* Add some margin to prevent the text from overlapping with the image */
+        margin-right: 20px;
+      }
+h1 {
+  font-family: "Dosis", sans-serif;
+}
+  
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  font-size:20px;
+}
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Adam Holeman</h1>
+      <nav>
+        <ul>
+          <li><a href="Projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="images/Headshot.jpeg" alt="...">
+      <section id="about">
+        <h2>About Me</h2>
+        <p> I'm a mathematician interested in machine learning. You can find my work <a href = "Projects.html">here</a>. </p>
+                    
+        <p> I'm currently a graduate student at Northwestern University working under the wonderful supervision of <a href="https://antieau.github.io/">Ben Antieau</a>. My mathematical work has centered on prismatic cohomology and arithmetic geometry, mostly from the perspective of higher algebra.</p>
+        
+        <p> In addition to research, I help organize the <a href = "https://math.mit.edu/events/talbot/index.php?year=2023">Talbot Workshop </a>. </p>
+
+        <p>You can reach me at adamholeman2023@u.northwestern.edu.</p>
+      </section>
+    </main>
+  </body>
+</html>
